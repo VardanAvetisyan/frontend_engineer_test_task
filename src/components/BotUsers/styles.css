@@ -1,0 +1,51 @@
+.bot-users {
+    width: 80%;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.bot-user {
+    margin-top: 15px;
+    max-width: 500px;
+    background-color: #3898bc;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+}
+
+.bot-user img {
+    height: 150px;
+}
+
+.bot-user p {
+    align-self: center;
+}
+
+.bot-user h4 {
+    margin: 15px;
+}
+
+.pages button {
+    height: 30px;
+    background-color: #68ce38d1;
+    min-width: 50px;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 5px;
+    color: white;
+}
+
+.activePage {
+    background-color: rgba(243, 116, 20, 0.82)!important;
+}
+
+.form-group input {
+    width: 220px;
+    height: 10px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    padding: 10px;
+}
